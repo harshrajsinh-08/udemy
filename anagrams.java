@@ -46,6 +46,7 @@ public class anagrams {
         for (List<String> group : anagramGroups) {
             if (group.size() > 1) {
                 System.out.println(group);
+
             }
         }
     }
