@@ -1,23 +1,14 @@
-import java.util.Scanner;
-
-public class t1 {
-
-    public static void show(int...A){
-        for(int a : A){
-            System.out.println(a);
-        }
-    }
-
-    public static void showL(String...A){
-        for(int i=0;i<A.length;i++){
-            System.out.println(A[i]);
-        }
-    }
+class t1{
     public static void main(String[] args) {
+        String s1 = "Hello";
+        char[] s = s1.toCharArray();
+        for(int i = 0;i<s1.length();i++){
+            // System.out.print(s[i]);
 
-        System.out.println("helllo");
-        show(5,10,15,20);
-        showL("hello","world");
+        }
+        String c = s.toString();
+        System.out.println(c);
+        System.out.println(s.length);
+
     }
 }
-
