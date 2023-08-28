@@ -1,7 +1,5 @@
 package outer_and_inner;
 
-import Outer;
-
 class Outer
 {
     static int x=10;
